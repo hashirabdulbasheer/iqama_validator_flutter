@@ -1,6 +1,6 @@
 name: iqama_validator
 description: A flutter package to validate iqama and saudi national id number format that is used in the kingdom of saudi arabia.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/hashirabdulbasheer/iqama_validator_flutter
 
 environment:

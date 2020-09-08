@@ -70,7 +70,9 @@ class IqamaValidator {
       return false;
     }
 
-    int s = (((int.parse(iqamaOrId.substring(1, 2)) + int.parse(iqamaOrId.substring(3, 4))) + int.parse(iqamaOrId.substring(5, 6))) +
+    int s = (((int.parse(iqamaOrId.substring(1, 2)) +
+                int.parse(iqamaOrId.substring(3, 4))) +
+            int.parse(iqamaOrId.substring(5, 6))) +
         int.parse(iqamaOrId.substring(7, 8)));
     int tempS1 = 0;
     tempS1 = _evaluateBlock(_findBlockLength(iqamaOrId, 0), iqamaOrId, 0);
