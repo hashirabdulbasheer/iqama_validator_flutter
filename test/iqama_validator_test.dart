@@ -1,5 +1,6 @@
-import 'package:iqama_validator/iqama_validator.dart';
 import 'package:test/test.dart';
+
+import '../lib/iqama_validator.dart';
 
 void main() {
 
@@ -18,10 +19,6 @@ void main() {
     expect(isValid, true);
   });
 
-  test("Iqama Null Test", () async {
-    bool isValid = IqamaValidator.validate(null);
-    expect(isValid, false);
-  });
 
   test("Iqama Empty Test", () async {
     bool isValid = IqamaValidator.validate("");

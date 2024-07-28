@@ -52,7 +52,7 @@ class IqamaValidator {
   /// Returns true if it contains a valid Iqama or ID, false otherwise
   static bool _validateIqamaNo(String iqamaOrId) {
     // Null check.
-    if (iqamaOrId == null) {
+    if (iqamaOrId.isEmpty) {
       return false;
     }
 

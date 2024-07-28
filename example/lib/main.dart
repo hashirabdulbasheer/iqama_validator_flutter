@@ -33,7 +33,7 @@ class MyHomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               SizedBox(height: 30),
-              Text("$iqamaNumber", style: Theme.of(context).textTheme.headline2),
+              Text("$iqamaNumber", style: Theme.of(context).textTheme.headlineLarge),
               SizedBox(height: 30),
               Text("isValid: ${IqamaValidator.validate(iqamaNumber)}", style: TextStyle(color: Colors.green, fontSize: 50)),
             ],
